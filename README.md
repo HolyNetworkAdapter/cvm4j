@@ -27,3 +27,11 @@ Go to a CollabVM webapp, go into the dev console and type "multicollab("localhos
 # I don't see my VM, why?
 
 It's a problem in chromium browsers, use firefox.
+
+# SECURITY WARNING
+
+cvm4j VMs are vulnerable to XSS, or Cross-site Scripting. This means people can embed HTML code in chat (that includes loading malicious scripts and framing IP grabbers)
+
+It is also found to have websocket vulnerabilities. users can send anything to the console
+
+*** If you're gonna use this for a UserVM, you should run this in a VM on a non-privileged user.
