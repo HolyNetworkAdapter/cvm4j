@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cvm4j:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cvm4j_jar</output-path>
+    <root id="archive" name="cvm4j.jar">
+      <element id="module-output" name="cvm4j" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/guacamole-common-1.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/Java-WebSocket-1.5.2.jar" path-in-jar="/" />
+      <element id="directory" name="org">
+        <element id="directory" name="cvm4j">
+          <element id="directory" name="cvm4j">
+            <element id="directory" name="www">
+              <element id="file-copy" path="$USER_HOME$/Desktop/index.html" />
+            </element>
+          </element>
+        </element>
+      </element>
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/slf4j-api-1.7.33.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/slf4j-simple-1.7.33.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

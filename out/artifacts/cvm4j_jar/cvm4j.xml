@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config>
+  <cvm4j>
+      <width>640</width>
+      <height>480</height>
+      <wslisten>0.0.0.0</wslisten>
+      <wsport>3401</wsport>
+      <nodename>cvm4jvm</nodename>
+      <vmname>cvm4j default vm name - please change this!</vmname>
+  </cvm4j>
+</config>
